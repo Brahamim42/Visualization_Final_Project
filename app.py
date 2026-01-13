@@ -602,7 +602,7 @@ def render_Politics_dashboard(panel):
     with col1:
         event_name = st.selectbox("Select Event", EVENTS["event"].tolist(), key="pol_event")
     with col2:
-        metric = st.selectbox("Metric to Compare", ["GDP","Happiness Score", "Life Expectancy"], key="pol_metric")
+        metric = st.selectbox("Metric to Compare", ["Happiness Score", "GDP", "Life Expectancy"], key="pol_metric")
 
     event_row = EVENTS[EVENTS["event"] == event_name].iloc[0]
     metric = metric_dict[metric]
@@ -696,3 +696,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
