@@ -502,8 +502,8 @@ def plot_health_wealth_tradeoff(panel, event_row):
     df_delta["country"] = df_delta.index
 
     color_map = {
-        "Resilient (Health+ Wealth+)": "#2ecc71",  # Green
-        "Crisis (Health- Wealth-)":    "#e74c3c",  # Red
+        "Resilient (Health+ Wealth+)": "#2e6dcc",  # Blue
+        "Crisis (Health- Wealth-)":    "#cc6b2e",  # Orange
         "Trade-off":                   "#95a5a6"   # Gray
     }
 
@@ -696,6 +696,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
