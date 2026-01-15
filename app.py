@@ -231,7 +231,7 @@ def plot_resilience_dumbbell(panel, event_row, metric):
         x=plot_df[end],
         y=plot_df.index,
         mode="markers",
-        marker=dict(color=plot_df["change"].apply(lambda x: "#2ecc71" if x >= 0 else "#e74c3c"), size=10),
+        marker=dict(color=plot_df["change"].apply(lambda x: "#2e9acc" if x >= 0 else "#cc802e"), size=10),
         name=str(end)
     ))
 
@@ -696,5 +696,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
