@@ -206,7 +206,7 @@ def plot_resilience_dumbbell(panel, event_row, metric):
     for country in plot_df.index:
         start_val = plot_df.loc[country, start]
         end_val = plot_df.loc[country, end]
-        color = "#2ecc71" if end_val >= start_val else "#e74c3c"  # green good, red bad
+        color = "#3c9de7" if end_val >= start_val else "#e7973c"  # green good, red bad
 
         fig.add_trace(go.Scatter(
             x=[start_val, end_val],
@@ -696,4 +696,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
