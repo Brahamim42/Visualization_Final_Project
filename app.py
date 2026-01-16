@@ -16,8 +16,7 @@ POST_YEARS = 1
 COUNTRIES_OF_INTEREST = [
     "United States", "United Kingdom", "Germany",
     "France", "Japan", "Israel", "Canada",
-    "Russia", "Ukraine", "China", "Argentina", "Brazil",
-    "Nigeria", "Ghana", "India"
+    "Russia", "Ukraine", "China", "Argentina", "Brazil", "Ghana", "India"
 ]
 
 # URLs / Paths
@@ -697,6 +696,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
