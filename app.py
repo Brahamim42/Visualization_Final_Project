@@ -15,7 +15,7 @@ POST_YEARS = 1
 # We highlight these, but we load ALL data for the global charts
 COUNTRIES_OF_INTEREST = [
     "United States", "United Kingdom", "Germany",
-    "France", "Israel", "Canada",
+    "France", "Israel", "Canada", "Japan", "India", "Ghana", "Nigeria",
     "Russia", "Ukraine", "China", "Argentina", "Brazil"
 ]
 
@@ -696,6 +696,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
