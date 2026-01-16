@@ -662,11 +662,12 @@ def render_Epidemics_dashboard(panel):
     st.markdown(event_row["bio"])
     plot_health_wealth_tradeoff(panel, event_row)
 
-    st.divider()
+    # decided to give up on this map plot
+    ##st.divider()
 
     #map plot
-    st.subheader("Global Health Impact")
-    plot_delta_map(panel, event_row, "life_expectancy")
+    ##st.subheader("Global Health Impact")
+    ##plot_delta_map(panel, event_row, "life_expectancy")
 
 
 def main():
@@ -696,6 +697,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
